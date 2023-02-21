@@ -8,8 +8,8 @@ import {
 } from '../features/Counter/CounterSlice';
 
 const Counter = () => {
-  const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
+  const count = useSelector((state) => state.counter.count);
 
   const handleIncrement = () => {
     dispatch(increment());
