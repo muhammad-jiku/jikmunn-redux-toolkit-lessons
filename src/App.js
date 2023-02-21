@@ -1,4 +1,6 @@
 import React from 'react';
+
+//  internal imports
 import './App.css';
 import Counter from './components/CounterView';
 import Posts from './components/PostsView';

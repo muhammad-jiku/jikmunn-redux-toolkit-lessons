@@ -1,5 +1,9 @@
 import React from 'react';
+
+//  external imports
 import { useDispatch, useSelector } from 'react-redux';
+
+//  internal imports
 import {
   increment,
   decrement,

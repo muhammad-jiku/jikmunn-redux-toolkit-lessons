@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
+
+//  external imports
 import { useDispatch, useSelector } from 'react-redux';
+
+//  internal import
 import { fetchPosts } from '../features/Posts/PostsSlice';
 
 const Posts = () => {
